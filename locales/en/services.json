@@ -1,0 +1,25 @@
+{
+  "title": "Services",
+  "list": [
+    {
+      "title": "Legacy PHP Migration",
+      "desc": "Modernize old systems (CI/Laravel/Yii2)."
+    },
+    {
+      "title": "Workflow Automation",
+      "desc": "Approval & request routing."
+    },
+    {
+      "title": "Custom Form Builder",
+      "desc": "Manage custom field and its form."
+    },
+    {
+      "title": "Custom SaaS Development",
+      "desc": "Secure, efficient web apps."
+    },
+    {
+      "title": "Frontend Integration",
+      "desc": "React + Tailwind + API."
+    }
+  ]
+}

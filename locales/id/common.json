@@ -1,0 +1,26 @@
+{
+  "nav": {
+    "portfolio": "Portofolio",
+    "services": "Layanan",
+    "about": "Tentang",
+    "contact": "Kontak"
+  },
+  "footer": {
+    "rights": "Hak cipta dilindungi."
+  },
+  "hero": {
+    "title": "Senior PHP & React Developer",
+    "subtitle": "22 Tahun \u2014 Migrasi Sistem Lama",
+    "summary_1": "Pengembangan full-stack untuk sistem bisnis (alur kerja persetujuan, inventaris)",
+    "summary_2": "Mahir dalam mengelola seluruh siklus hidup perangkat lunak sebagai pengembang solo atau tim kecil"
+  },
+  "cta": {
+    "portfolio": "Lihat Portofolio",
+    "contact": "Hubungi Saya",
+    "resume": "Unduh CV"
+  },
+  "whatsapp": "https://wa.me/628562302121",
+  "email": "rizts.tech@gmail.com",
+  "linkedin":  "https://linkedin.com/in/rizts",
+  "github": "https://github.com/rizts"
+}

@@ -1,0 +1,86 @@
+{
+  "title": "Portfolio",
+  "result_label": "Result",
+  "items": [
+    {
+      "title": "Inventory Stock",
+      "description": "Record the movement of goods and presents it in reports. Developed for PT Andromeda Global.",
+      "tech": "Yii2, React, Bootstrap, MySQL"
+    },
+    {
+      "title": "Approval Workflow",
+      "description": "Drag-and-drop steps, multi approver.",
+      "tech": "Yii2, React, Tailwind, MySQL"
+    },
+    {
+      "title": "Dynamic Form Builder",
+      "description": "DB-driven fields, auto validation, secure upload.",
+      "tech": "Yii2, React, Zod, MySQL"
+    },
+    {
+      "title": "Drovat",
+      "description": "Extracts VAT documents and manage its reporting and notification. Developed for PT Andromeda Global.",
+      "tech": "Yii2, Bootstrap, MySQL"
+    },
+    {
+      "title": "Drominder",
+      "description": "Remind the events and manages its feedback. Developed for PT Andromeda Global.",
+      "tech": "Yii2, Bootstrap, MySQL"
+    },
+    {
+      "title": "Shopify plugins",
+      "description": "Developed several Shopify plugins for Shopify Master.",
+      "tech": "PHP, CodeIgniter, Bootstrap, MySQL"
+    },
+    {
+      "title": "Mini ERP Reservation System",
+      "description": "Mini ERP Reservation System for several travel agents.",
+      "tech": "PHP, CodeIgniter, Bootstrap, MySQL"
+    },
+    {
+      "title": "Career Center",
+      "description": "Career Center for Bandung Institute of Tourism. Developed under CV 4Vision Media.",
+      "tech": "PHP, Laravel, Bootstrap, MySQL"
+    },
+    {
+      "title": "Dashboard Monitoring System",
+      "description": "Dashboard Monitoring System for Annapola Group. Developed under CV 4Vision Media.",
+      "tech": "PHP, Laravel, Bootstrap, MySQL"
+    },
+    {
+      "title": "Paseban.com",
+      "description": "Local social network and news platform. Developed for PT Bekisar.",
+      "tech": "PHP, Bootstrap, MySQL"
+    },
+    {
+      "title": "HP Trim Document Sharing",
+      "description": "Customized HP Trim Document Sharing. Developed under PT Duta Astakona Girindra.",
+      "tech": ".NET, C#, SQL Server"
+    },
+    {
+      "title": "Disaster Management Information System",
+      "description": "Disaster Management Information System for IFRC. Developed under PT Duta Astakona Girindra.",
+      "tech": "PHP, CodeIgniter, MySQL, Bootstrap"
+    },
+    {
+      "title": "Simzaki",
+      "description": "Zakat Management System for Baznas. Developed under CV Waditra Reka Cipta.",
+      "tech": "Java, Seam Framework, MySQL"
+    },
+    {
+      "title": "Obligation and Credit Monitoring System",
+      "description": "Obligation and Credit Monitoring System for OCBC NISP Bank. Developed under PT Insan Infonesia.",
+      "tech": ".NET, C#, SQL Server"
+    },
+    {
+      "title": "Bumiputera New System (BNS)",
+      "description": "Insurance system for PT Bumiputera. Developed under PT Dirgantara Indonesia.",
+      "tech": "Java, Struts, Hibernate, Oracle"
+    },
+    {
+      "title": "Vi-Track System and Utility",
+      "description": "Vehicle tracking using GPS with data sent via SMS. Developed for PT Elda Sarana Informatik",
+      "tech": "PHP, Java, PostgreSQL"
+    }
+  ]
+}

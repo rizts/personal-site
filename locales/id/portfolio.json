@@ -1,0 +1,90 @@
+{
+  "title": "Portofolio",
+  "items": [
+    {
+      "title": "Stok Inventori",
+      "description": "Mencatat pergerakan barang dan menyajikannya dalam laporan. Dikembangkan untuk PT Andromeda Global.",
+      "tech": "Yii2, React, Bootstrap, MySQL"
+    },
+    {
+      "title": "Approval Workflow",
+      "description": "Drag-and-drop step, multi approver.",
+      "tech": "Yii2, React, Tailwind, MySQL"
+    },
+    {
+      "title": "Dynamic Form Builder",
+      "description": "Field berbasis DB, validasi otomatis, upload aman.",
+      "tech": "Yii2, React, Zod, MySQL"
+    },
+    {
+      "title": "Drovat",
+      "description": "Mengekstrak dokumen PPN dan mengelola pelaporan dan pemberitahuannya. Dikembangkan untuk PT Andromeda Global.",
+      "tech": "Yii2, Bootstrap, MySQL"
+    },
+    {
+      "title": "Drominder",
+      "description": "Mengingatkan acara dan mengelola umpan baliknya. Dikembangkan untuk PT Andromeda Global.",
+      "tech": "Yii2, Bootstrap, MySQL"
+    },
+    {
+      "title": "Drominder",
+      "description": "Remind the events and manages its feedback. Developed for PT Andromeda Global.",
+      "tech": "Yii2, Bootstrap, MySQL"
+    },
+    {
+      "title": "Plugin Shopify",
+      "description": "Mengembangkan beberapa plugin Shopify untuk Shopify Master.",
+      "tech": "PHP, CodeIgniter, Bootstrap, MySQL"
+    },
+    {
+      "title": "Sistem Reservasi Mini ERP",
+      "description": "Sistem Reservasi Mini ERP untuk beberapa agen perjalanan.",
+      "tech": "PHP, CodeIgniter, Bootstrap, MySQL"
+    },
+    {
+      "title": "Pusat Karir STP Bandung",
+      "description": "Pusat Karir untuk STP Bandung. Dikembangkan di bawah naungan CV 4Vision Media.",
+      "tech": "PHP, Laravel, Bootstrap, MySQL"
+    },
+    {
+      "title": "Sistem Pemantauan Dasbor",
+      "description": "Sistem Pemantauan Dasbor untuk Annapola Group. Dikembangkan di bawah naungan CV 4Vision Media.",
+      "tech": "PHP, Laravel, Bootstrap, MySQL"
+    },
+    {
+      "title": "Paseban.com",
+      "description": "Jaringan sosial dan platform berita lokal. Dikembangkan untuk PT Bekisar.",
+      "tech": "PHP, Bootstrap, MySQL"
+    },
+    {
+      "title": "Berbagi Dokumen HP Trim",
+      "description": "Berbagi Dokumen HP Trim yang Disesuaikan. Dikembangkan di bawah PT Duta Astakona Girindra.",
+      "tech": ".NET, C#, SQL Server"
+    },
+    {
+      "title": "Sistem Informasi Manajemen Bencana",
+      "description": "Sistem Informasi Manajemen Bencana untuk IFRC. Dikembangkan di bawah PT Duta Astakona Girindra.",
+      "tech": "PHP, CodeIgniter, MySQL, Bootstrap"
+    },
+    {
+      "title": "Simzaki",
+      "description": "Sistem Manajemen Zakat untuk Baznas. Dikembangkan di bawah CV Waditra Reka Cipta.",
+      "tech": "Java, Seam Framework, MySQL"
+    },
+    {
+      "title": "Sistem Pemantauan Kewajiban dan Kredit",
+      "description": "Sistem Pemantauan Kewajiban dan Kredit untuk Bank OCBC NISP. Dikembangkan di bawah PT Insan Infonesia.",
+      "tech": ".NET, C#, SQL Server"
+    },
+    {
+      "title": "Sistem Baru Bumiputera (BNS)",
+      "description": "Sistem asuransi untuk PT Bumiputera. Dikembangkan di bawah PT Dirgantara Indonesia.",
+      "tech": "Java, Struts, Hibernate, Oracle"
+    },
+    {
+      "title": "Sistem dan Utilitas Vi-Track",
+      "description": "Pelacakan kendaraan menggunakan GPS dengan data yang dikirim melalui SMS. Dikembangkan untuk PT Elda Sarana Informatik",
+      "tech": "PHP, Java, PostgreSQL"
+    }
+  ]
+}

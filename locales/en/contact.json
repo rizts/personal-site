@@ -1,0 +1,14 @@
+{
+  "title": "Contact",
+  "desc": "Have a project? Let's talk.",
+  "form": {
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "submit": "Send"
+  },
+  "whatsapp": "https://wa.me/628562302121",
+  "email": "rizts.tech@gmail.com",
+  "linkedin":  "https://linkedin.com/in/rizts",
+  "github": "https://github.com/rizts"
+}

@@ -1,0 +1,28 @@
+/* styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Gradient animation */
+@keyframes gradient-xy {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+.animate-gradient-xy {
+  background-size: 200% 200%;
+  animation: gradient-xy 5s ease infinite;
+}
+
+/* Pulse glow light mode */
+@keyframes pulse-slow-light {
+  0%, 100% { box-shadow: 0 0 0px rgba(59,130,246,0.5); }
+  50% { box-shadow: 0 0 20px rgba(59,130,246,0.7); }
+}
+.animate-pulse-light { animation: pulse-slow-light 2.5s infinite ease-in-out; }
+
+/* Pulse glow dark mode */
+@keyframes pulse-slow-dark {
+  0%, 100% { box-shadow: 0 0 0px rgba(139,92,246,0.5); }
+  50% { box-shadow: 0 0 20px rgba(139,92,246,0.7); }
+}
+.animate-pulse-dark { animation: pulse-slow-dark 2.5s infinite ease-in-out; }

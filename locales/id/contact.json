@@ -1,0 +1,14 @@
+{
+  "title": "Kontak",
+  "desc": "Ada proyek? Yuk diskusi.",
+  "form": {
+    "name": "Nama",
+    "email": "Email",
+    "message": "Pesan",
+    "submit": "Kirim"
+  },
+  "whatsapp": "https://wa.me/628562302121",
+  "email": "rizts.tech@gmail.com",
+  "linkedin":  "https://linkedin.com/in/rizts",
+  "github": "https://github.com/rizts"
+}

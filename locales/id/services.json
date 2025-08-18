@@ -1,0 +1,25 @@
+{
+  "title": "Layanan",
+  "list": [
+    {
+      "title": "Migrasi PHP Legacy",
+      "desc": "Modernisasi sistem lama (CI/Laravel/Yii2)."
+    },
+    {
+      "title": "Otomatisasi Workflow",
+      "desc": "Approval & request routing."
+    },
+    {
+      "title": "Pembuat Formulir Kustom",
+      "desc": "Kelola kolom kustom dan formulirnya."
+    },
+    {
+      "title": "Pengembangan SaaS Kustom",
+      "desc": "Aplikasi web aman & efisien."
+    },
+    {
+      "title": "Integrasi Frontend",
+      "desc": "React + Tailwind + API."
+    }
+  ]
+}
