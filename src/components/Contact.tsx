@@ -24,7 +24,7 @@ export default function Contact() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
-    const mailtoLink = `mailto:someone@example.com?subject=Message from ${encodeURIComponent(
+    const mailtoLink = `mailto:${t('email')}?subject=Message from ${encodeURIComponent(
       name
     )}&body=${encodeURIComponent(message)}%0A%0AFrom: ${encodeURIComponent(email)}`
     window.location.href = mailtoLink
