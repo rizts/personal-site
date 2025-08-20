@@ -4,6 +4,7 @@ import HeroSummaries from "./HeroSummaries";
 import DigitalNomadMap from "./DigitalNomadMap";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import { trackEvent } from "@/utils/umami";
 
 export default function Hero() {
   const { t } = useTranslation("common");
@@ -85,6 +86,7 @@ export default function Hero() {
             <motion.a
               href="/portfolio"
               whileHover={{ scale: 1.05 }}
+              onClick={() => trackEvent("CTA Portfolio Click", { location: "Hero" })}
               className="bg-white text-black dark:bg-gray-800 dark:text-white px-6 py-2 rounded-lg font-semibold transition-shadow"
             >
               {t("cta.portfolio")}
@@ -93,6 +95,7 @@ export default function Hero() {
             <motion.a
               href="/contact"
               whileHover={{ scale: 1.05 }}
+              onClick={() => trackEvent("CTA Contact Click", { location: "Hero" })}
               className="border border-black dark:border-white px-6 py-2 rounded-lg font-semibold transition-shadow"
             >
               {t("cta.contact")}
@@ -102,6 +105,7 @@ export default function Hero() {
               href="/assets/resume/risdy.pdf"
               download
               whileHover={{ scale: 1.05 }}
+              onClick={() => trackEvent("CTA Resume Download", { location: "Hero" })}
               className="border border-green-500 text-green-500 dark:border-green-400 dark:text-green-400 px-6 py-2 rounded-lg font-semibold transition-shadow"
             >
               {t("cta.resume")}

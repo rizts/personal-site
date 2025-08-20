@@ -14,14 +14,18 @@ export default function MyApp({ Component, pageProps }: AppProps) {
     initThemeByTime()
   }, [initThemeByTime])
 
-  // Tambahkan hook Umami SPA tracking
+  useEffect(() => {
+    if (typeof window !== "undefined" && (window as any).umami) {
+      (window as any).umami.track(window.location.pathname)
+    }
+  }, [])
+
   useEffect(() => {
     const handleRouteChange = (url: string) => {
-      if ((window as any).umami) {
+      if (typeof window !== "undefined" && (window as any).umami) {
         (window as any).umami.track(url)
       }
     }
-
     router.events.on('routeChangeComplete', handleRouteChange)
     return () => {
       router.events.off('routeChangeComplete', handleRouteChange)
@@ -30,13 +34,12 @@ export default function MyApp({ Component, pageProps }: AppProps) {
 
   return (
     <>
-      {/* Script Umami */}
       <Script
         src="https://umami-omega-lemon.vercel.app/script.js"
         data-website-id="32599a5f-7c0f-43c3-992a-44c9b2892e15"
+        data-auto-track="false"
         strategy="afterInteractive"
       />
-
       <AnimatePresence mode="wait">
         <motion.div
           key={router.asPath}

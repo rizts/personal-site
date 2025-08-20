@@ -4,6 +4,7 @@ import { FaLinkedin, FaGithub, FaWhatsapp } from 'react-icons/fa'
 import { MdEmail } from 'react-icons/md'
 import { motion, Variants } from 'framer-motion'
 import { useThemeStore } from '@/store/themeStore'
+import { trackEvent } from '@/utils/umami'
 
 export default function Contact() {
   const { t } = useTranslation('contact')
@@ -24,9 +25,17 @@ export default function Contact() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
+
+    trackEvent('contact_form_submit', {
+      name,
+      email,
+      message_length: message.length,
+    })
+
     const mailtoLink = `mailto:${t('email')}?subject=Message from ${encodeURIComponent(
       name
     )}&body=${encodeURIComponent(message)}%0A%0AFrom: ${encodeURIComponent(email)}`
+
     window.location.href = mailtoLink
   }
 
