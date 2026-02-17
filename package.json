@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "motion": "^12.23.12",
-    "next": "15.4.6",
+    "next": "15.4.10",
     "next-translate": "2.6.0",
     "next-translate-plugin": "2.0.5",
     "react": "18.3.1",
