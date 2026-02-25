@@ -1,7 +1,7 @@
 import useTranslation from 'next-translate/useTranslation'
 import { motion } from 'framer-motion'
-import { FaLaravel, FaReact, FaJava, FaDocker, FaLinux, FaGitAlt } from 'react-icons/fa'
-import { SiTailwindcss, SiJquery, SiPostgresql, SiYii, SiCodeigniter, SiBootstrap, SiMysql, SiOracle, SiZod, SiSwr } from 'react-icons/si'
+import { FaPhp, FaReact, FaJava, FaDocker, FaLinux, FaGitAlt, FaPython, FaNodeJs } from 'react-icons/fa'
+import { SiTailwindcss, SiJquery, SiPostgresql, SiBootstrap, SiMysql, SiOracle, SiZod, SiSwr } from 'react-icons/si'
 
 export default function About() {
   const { t } = useTranslation('about')
@@ -10,9 +10,9 @@ export default function About() {
     {
       category: 'Backend',
       items: [
-        { name: 'Laravel', icon: <FaLaravel /> },
-        { name: 'Yii2', icon: <SiYii /> },
-        { name: 'CodeIgniter', icon: <SiCodeigniter /> },
+        { name: 'PHP', icon: <FaPhp /> },
+        { name: 'Python', icon: <FaPython /> },
+        { name: 'Node', icon: <FaNodeJs /> },
         { name: 'Java', icon: <FaJava /> },
       ]
     },
@@ -111,6 +111,7 @@ export default function About() {
               <p className="text-gray-700 dark:text-gray-300 leading-relaxed">{t('p1')}</p>
               <p className="mt-4 text-gray-700 dark:text-gray-300 leading-relaxed">{t('p2')}</p>
               <p className="mt-4 text-gray-700 dark:text-gray-300">{t('p3')}</p>
+              <p className="mt-4 text-gray-700 dark:text-gray-300">{t('p4')}</p>
             </div>
 
             {/* Tech Stack */}

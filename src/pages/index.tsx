@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <Layout>
       <Head>
-        <title>Risdy – Senior PHP & React Developer</title>
+        <title>Risdy – Senior Fullstack Developer | AI Integration Specialist | RAG Systems</title>
         <meta name="description" content="Portfolio & services" />
         <link rel="icon" href="/assets/images/rizts.png" type="image/png" />
       </Head>

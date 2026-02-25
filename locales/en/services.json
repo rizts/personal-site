@@ -3,23 +3,28 @@
   "list": [
     {
       "title": "Legacy PHP Migration",
-      "desc": "Modernize old systems (CI/Laravel/Yii2)."
+      "desc": "Modernize old systems (CI/Laravel/Yii2).",
+      "image": "/assets/images/services/legacy_system_migration.png"
     },
     {
       "title": "Workflow Automation",
-      "desc": "Approval & request routing."
+      "desc": "Approval & request routing.",
+      "image": "/assets/images/services/workflow_automation.png"
     },
     {
       "title": "Custom Form Builder",
-      "desc": "Manage custom field and its form."
+      "desc": "Manage custom field and its form.",
+      "image": "/assets/images/services/custom_form_builder.png"
     },
     {
       "title": "Custom SaaS Development",
-      "desc": "Secure, efficient web apps."
+      "desc": "Secure, efficient web apps.",
+      "image": "/assets/images/services/custom_saas_development.png"
     },
     {
       "title": "Frontend Integration",
-      "desc": "React + Tailwind + API."
+      "desc": "React + Tailwind + API.",
+      "image": "/assets/images/services/frontend_integration.png"
     }
   ]
 }

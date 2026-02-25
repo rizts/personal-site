@@ -2,7 +2,7 @@ import useTranslation from 'next-translate/useTranslation'
 import { motion, Variants } from 'framer-motion'
 import { useThemeStore } from '@/store/themeStore'
 
-type Service = { title: string; desc: string }
+type Service = { title: string; desc: string; image: string }
 
 export default function Services() {
   const { t } = useTranslation('services')
@@ -39,7 +39,7 @@ export default function Services() {
           {t('title')}
         </h2>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
           {list.map((s, i) => (
             <motion.div
               key={i}
@@ -48,6 +48,7 @@ export default function Services() {
               className="bg-white dark:bg-gray-800 rounded-xl p-6 flex flex-col justify-between cursor-pointer
                 shadow-md dark:shadow-gray-900 transition-shadow duration-300"
             >
+              <img src={s.image} alt={s.title} className="rounded-md mb-4" />
               <h3 className="text-lg md:text-xl font-semibold text-gray-900 dark:text-white">
                 {s.title}
               </h3>

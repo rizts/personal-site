@@ -34,6 +34,7 @@ export default function HeroSummaries({ t }: { t: (key: string) => string }) {
     <div className="flex flex-col gap-2 mt-2">
       <Typewriter text={t("hero.summary_1")} delayStart={1} speed={40} />
       <Typewriter text={t("hero.summary_2")} delayStart={3} speed={40} />
+      <Typewriter text={t("hero.summary_3")} delayStart={5} speed={40} />
     </div>
   );
 }

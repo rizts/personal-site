@@ -3,23 +3,28 @@
   "list": [
     {
       "title": "Migrasi PHP Legacy",
-      "desc": "Modernisasi sistem lama (CI/Laravel/Yii2)."
+      "desc": "Modernisasi sistem lama (CI/Laravel/Yii2).",
+      "image": "/assets/images/services/legacy_system_migration.png"
     },
     {
       "title": "Otomatisasi Workflow",
-      "desc": "Approval & request routing."
+      "desc": "Approval & request routing.",
+      "image": "/assets/images/services/workflow_automation.png"
     },
     {
       "title": "Pembuat Formulir Kustom",
-      "desc": "Kelola kolom kustom dan formulirnya."
+      "desc": "Kelola kolom kustom dan formulirnya.",
+      "image": "/assets/images/services/custom_form_builder.png"
     },
     {
       "title": "Pengembangan SaaS Kustom",
-      "desc": "Aplikasi web aman & efisien."
+      "desc": "Aplikasi web aman & efisien.",
+      "image": "/assets/images/services/custom_saas_development.png"
     },
     {
       "title": "Integrasi Frontend",
-      "desc": "React + Tailwind + API."
+      "desc": "React + Tailwind + API.",
+      "image": "/assets/images/services/frontend_integration.png"
     }
   ]
 }

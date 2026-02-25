@@ -2,7 +2,7 @@ import useTranslation from 'next-translate/useTranslation'
 import { motion, Variants } from 'framer-motion'
 import { useThemeStore } from '@/store/themeStore'
 
-type Item = { title: string; description: string; tech: string; result?: string }
+type Item = { title: string; description: string; tech: string; result?: string, link: string, image: string }
 
 export default function Portfolio() {
   const { t } = useTranslation('portfolio')
@@ -45,13 +45,17 @@ export default function Portfolio() {
         {/* Grid Projects */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
           {items.map((p, i) => (
-            <motion.div
+            <motion.a
               key={i}
+              href={p.link}
+              target="_blank"
+              rel="noopener noreferrer"
               variants={hoverVariants}
               whileHover="hover"
               className="bg-white dark:bg-gray-800 rounded-xl p-6 flex flex-col justify-between cursor-pointer
                 shadow-md dark:shadow-gray-900 transition-shadow duration-300"
             >
+              <img src={p.image} alt={p.title} className="rounded-md mb-4" />
               <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
                 {p.title}
               </h3>
@@ -66,7 +70,7 @@ export default function Portfolio() {
                   <strong>Result:</strong> {p.result}
                 </p>
               )}
-            </motion.div>
+            </motion.a>
           ))}
         </div>
       </div>

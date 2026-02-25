@@ -102,7 +102,7 @@ export default function Hero() {
             </motion.a>
 
             <motion.a
-              href="/assets/resume/risdy.pdf"
+              href="/assets/resume/Risdyanto_Senior_Fullstack_Developer_Resume.pdf"
               download
               whileHover={{ scale: 1.05 }}
               onClick={() => trackEvent("CTA Resume Download", { location: "Hero" })}
